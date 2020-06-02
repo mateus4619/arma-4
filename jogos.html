@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Todos os jogos</title>
+    <link rel="stylesheet" href="css/jogos.css">
+    <script>
+        function aumenta(zoom) {
+            if(zoom.width == 320) zoom.width = zoom.width+100 ;
+        }
+        function diminui(zoom){
+            if(zoom.width == 420)
+            zoom.width = zoom.width-100;
+        }
+    </script>
+</head>
+<body>
+<nav id="menu">
+<ul>
+    <li><a href="https://www.bohemia.net/blog" target="_blank">NOVIDADES</a></li>
+    <li><a href="jogos.html"> JOGOS</a></li>
+    <li><a href="contato.html">CONTATO</a></li>
+    <li><a href="requisitos.html">REQUISÍTOS</a></li>
+    <div class="logomenu">
+        <a href="index.html">
+            <img src="midia/logo.png" height="40px" width="60px"/>
+        </a>
+    </div>
+    <div class="steam">
+        <a href="https://steamcommunity.com/workshop/browse/?appid=107410" target="_blank">
+            <img src="midia/steam.png" height="67" width="178"/>
+        </a>
+    </div>
+</ul>
+</nav>
+
+<header>
+<span class="logobh">
+<img src="midia/unnamed.png" height="70" width="180"/>
+    <h2>JOGOS</h2>
+</span>
+</header>
+<nav id="menujg">
+    <ul>
+        <li>
+            <a href="https://store.steampowered.com/app/107410/Arma_3/"target="_blank"><img src="midia/menu1.jpg" width="320"height="700" onMouseOver="aumenta(this)" onmouseout="diminui(this)"/></a>
+        </li>
+
+        <li>
+            <a href="https://store.steampowered.com/app/33930/Arma_2_Operation_Arrowhead/"target="_blank"> <img src="midia/menu2.jpg" height="700" width="320"onMouseOver="aumenta(this)" onmouseout="diminui(this)"/></a>
+        </li>
+
+        <li>
+            <a href="https://store.steampowered.com/app/65790/ARMA_Cold_War_Assault/"target="_blank"> <img src="midia/menu3.jpg" height="700" width="320"onMouseOver="aumenta(this)" onmouseout="diminui(this)"/></li>
+        <li>
+            <a href="https://store.steampowered.com/app/221100/DayZ/"target="_blank"> <img src="midia/menu4.png" height="700" width="320"onMouseOver="aumenta(this)" onmouseout="diminui(this)"/></a>
+        </li>
+    </ul>
+</nav>
+
+</body>
+</html>

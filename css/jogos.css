@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oswald:wght@600&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*INTERFACE*/
+h2{
+    color: white;
+    font-family: Arial;
+    text-shadow: white 1px 1px 1px,-1px 1px 1px black,1px -1px 1px black,-1px -1px 1px black;
+    margin: 0px 0px 0px 0px;
+}
+a{
+    text-decoration:none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 1280px;
+    background-color: black;
+    background-image: url("../../midia/fundo.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+nav#menu {
+    display: inline;
+    height: 44px;
+    
+}
+nav#menu ul{
+    position: relative;
+    background: url("../../midia/ponto.png");
+    display: block;
+    text-align: center;
+    margin: 0;
+    height: 32px;
+    padding-top: 16px;
+}
+nav#menu li {
+    display: inline;
+    font-family: "Fivo Sans Modern Heavy";
+    color: lightgray;
+    text-shadow: 0px 0px 18px #646464;
+    
+    padding-right: 45px;
+    padding-left: 35px;
+}
+.logomenu{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.logomenu a:hover{
+    filter: brightness(200%) ;
+}
+
+nav#menu a{
+    color: lightgray;
+}
+nav#menu a:hover{
+    color: grey;
+    transition: color 1s;
+}
+.steam{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.steam a:hover{
+    filter: grayscale(1);
+}
+header{
+    height: 68px;
+    background-color: black;
+}
+header .logobh{
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 10pt;
+}
+header .logobh h2{
+   position: absolute;
+    bottom: 50px;
+    left: 160px;
+    right: 0px;
+    font-size: 8pt;
+    font-family: "Roboto Light" sans-serif;
+}
+nav#menujg img{
+transition: width 0.5s;
+}
+nav#menujg ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    max-width: 1264px;
+}
+#menujg li{
+    transition-timing-function: linear;
+    transition-duration: 700ms;
+    transition-property: all;
+}
+nav#menujg li:hover{
+    filter: saturate(0);
+
+}

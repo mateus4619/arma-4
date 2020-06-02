@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<style>
+    .container{
+        grid-template-areas:"nav"
+    "header"
+    "main"
+    "footer";
+    grid-template-rows:44px auto auto;
+    grid-template-columns: auto ;
+}
+    
+    }
+    h1{
+        background-color: black;
+        background-image: url("midia/ponto.png");
+    }
+
+    h2{
+        color: #FFF;    
+        text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+        letter-spacing: 3px;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', Arial, sans-serif;
+        text-align: center;
+    }
+    h4{
+        margin-top: 40px;
+        color: #FFF;
+        text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+        letter-spacing: 3px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', Arial, sans-serif;
+        text-align: center;
+    }
+    header{
+    height: 68px;
+    background-color: black;
+}
+    header .logobh{
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 10pt;
+}
+    header .logobh h2{
+    position: absolute;
+    bottom: 50px;
+    left: 160px;
+    right: 0px;
+    font-size: 8pt;
+    font-family: "Robsoto Light" sans-serif;
+}
+    .map{
+    background-image: url("midia/map.jpg");
+    background-size: cover;    
+    height: 86vh;
+    width: 100%;
+    grid-area: main;
+}
+    .map:hover{
+        filter: saturate(0);
+    }
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logomenu">
+                <a href="index.html">
+                    <img src="midia/logo.png" height="40px" width="60px"/>
+                </a>
+            </div>
+            <div class="steam">
+                <a href="https://steamcommunity.com/workshop/browse/?appid=107410" target="_blank">
+                    <img src="midia/steam.png" height="67" width="178"/>
+                </a>
+            </div>
+            <ul>
+                <li><a href="https://www.bohemia.net/blog" target="_blank">NOVIDADES</a></li>
+                <li><a href="jogos.html"> JOGOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="requisitos.html">REQUISÍTOS</a></li>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <span class="logobh">
+            <img src="midia/unnamed.png" height="70" width="180"/>
+                <h2>MAPA</h2>
+            </span>
+                </header>
+                <div class="map">
+                   <h2>Kunduz</h2>
+                    <h4>MEET ALTIS AND STRATIS, YOUR OPEN-WORLD BATTLEFIELDS FEATURED IN ARMA 3. QUAINT, MEDITERRANEAN ISLANDS RAVAGED BY HOSTILE OCCUPATION, THEY ARE THE LARGEST AND MOST-DETAILED TERRAINS YET DEBUTED IN THE ARMA SERIES.
+
+                    </h4>
+                </div>
+</body>
+</html>

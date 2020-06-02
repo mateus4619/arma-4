@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+h2{
+    color: white;
+   font-family: 'Shadows Into Light', cursive;;
+    text-shadow: white 1px 1px 1px,-1px 1px 1px black,1px -1px 1px black,-1px -1px 1px black;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+p{
+    font-size: 12pt;
+    font-family: sans-serif;
+    text-align: center;
+    width: 250px;
+    color: #FFFFFF;
+    text
+}
+a{
+    text-decoration:none;
+}
+body{
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 1280px;
+    background-color: black;
+    background-image: url("../../midia/fundo.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+nav#menu {
+    display: inline;
+}
+nav#menu ul{
+    position: relative;
+    margin-top: -7px;
+    background: url("../../midia/ponto.png");
+    display: block;
+    padding-bottom: 11px;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+nav#menu li {
+    display: inline;
+    font-family: "Fivo Sans Modern Heavy";
+    color: lightgray;
+    text-shadow: 0px 0px 18px #646464;
+    padding-right: 45px;
+    padding-left: 35px;
+
+}
+.logomenu{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.logomenu a:hover{
+    filter: brightness(200%) ;
+}
+
+nav#menu a{
+    color: lightgray;
+}
+nav#menu a:hover{
+    color: grey;
+    transition: color 1s;
+}
+.steam{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.steam a:hover{
+    filter: grayscale(1);
+}
+.personagens{
+    display: flex;
+    padding-left: 140px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: dimgrey solid 2px;
+}
+header{
+    height: 68px;
+    background-color: black;
+}
+header .logobh{
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 10pt;
+}
+header .logobh h2{
+    position: absolute;
+    bottom: 50px;
+    left: 160px;
+    right: 0px;
+    font-size: 8pt;
+    font-family: "Roboto Light" sans-serif;
+}
+
+.skin{
+    width: 250px;
+    padding-left: 20px;
+}
+.skin img{
+    transition-timing-function: linear;
+    transition-duration: .4s;
+    transition-property: all;
+}
+.skin img:hover{
+    filter: saturate(0);
+
+}
+.personagens{
+    padding-left:8%;
+}
+
+
+
+
+footer{
+    grid-area: footer;
+    border-bottom: 3px solid #54d19b;
+    height: 610px;
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #f2f7c6;
+    line-height: 1.15;
+    letter-spacing: 2px;
+    font-family: Montserrat;
+    border-bottom: 3px solid #54d19b;
+}
+article#fim2{
+    height: 190px;
+}
+article#fim2 h2{
+    color: #f2f7c6;
+}
+
+article#fim2 a:hover{
+    opacity: 40%;
+    transition: opacity 2s;
+}
+
+article#fim2 figcaption{
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    text-shadow: 3px 3px 3px 3px black;
+}
+article#fim3 {
+    position: relative;
+    padding-left: 40%;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 14px;
+}
+article#fim3 .ta{
+    padding-left: 35px;
+
+}
+article#creditos{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+    display: block;
+    color: white;
+    text-indent: 8px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 4px ;
+}

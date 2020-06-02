@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*GRID*/
+.container {
+    display: grid;
+    grid-template-rows:44px auto auto auto;
+    grid-template-areas:"nav nav"
+    "main main"
+    "footer footer"
+}
+
+/*"BÁSICO"*/
+body{
+    background-color: black;
+    background-image: url("../midia/fundo.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration:none;
+}
+/*BÁSICO*/
+
+/*"MENU DE NAVEGAÇÃO">*/
+
+
+nav{
+    grid-area: nav;
+    position: relative;
+    position: relative;
+    background: url(../midia/ponto.png);
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 100%;
+}
+nav ul{
+    margin-top: 16px;
+}
+nav li {
+    display: inline;
+    font-family: "Fivo Sans Modern Heavy";
+    color: lightgray;
+    text-shadow: 0px 0px 18px #646464;
+    padding-right: 45px;
+    padding-left: 35px;
+}
+.logomenu{
+    float: left;
+    padding-left: 2%;
+}
+
+.logomenu a:hover{
+    filter: brightness(200%) ;
+}
+.steam{
+    float: right;
+}
+.steam a:hover{
+    filter: grayscale(1);
+}
+nav a{
+    color: lightgray;
+}
+nav a:hover{
+    color: grey;
+    transition: color 1s;
+}
+
+/*MAIN*/
+main{
+ grid-area: main;   
+}
+.logodog{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+.logodog img{
+    animation: gira 8s alternate-reverse infinite;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+.logodog img:hover{
+    filter: saturate(0);
+}
+
+@keyframes gira {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+footer{
+    grid-area: footer;
+   
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #f2f7c6;
+    line-height: 1.15;
+    letter-spacing: 2px;
+    font-family: Montserrat;
+}
+
+article#fim3 {
+    position: relative;
+    padding-left: 40%;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 14px;
+}
+article#fim3 .ta{
+    padding-left: 35px;
+
+}
